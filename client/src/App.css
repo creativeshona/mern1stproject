@@ -1,0 +1,143 @@
+*{
+  text-decoration: none;
+  /* background-color: black; */
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  list-style-type: none;
+  text-decoration: none;
+}
+.active{
+  /* color: rgb(43, 226, 43); */
+  font-weight: 900;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+  padding:2rem;
+}
+
+.text_area{
+  border-radius: 10px;
+  margin-top: 2rem;
+  padding: 10px;
+}
+
+
+.left{
+  height: 100vh;
+  background-color: rgba(127, 255, 212, 0.525);
+}
+.right{
+  height: 100vh;
+  background-color: antiquewhite;
+}
+
+
+/* ________________________about--------------________________- */
+
+
+.profile-work>a{
+  color: black;
+  margin-left: -5px;
+} 
+.login{
+  /* height: 100vh; */
+}
+
+
+/* contect>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media only screen and (max-width:800px) {
+  .container{
+    /* background-color: red; */
+    /* border: 2px solid ; */
+    flex-direction: column;
+  }
+  .three-clm{
+    height: 150px;
+  }
+  /* .getTouch{
+    width: 80vh;
+  } */
+}
+
+@media only screen and (max-width:600px) {
+ 
+}
+@media only screen and (max-width:450px) {
+  .getTouch{
+    width: 45vh;
+  }
+  .about-1strow{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* background-color: green; */
+
+
+  }
+}
+@media only screen and (max-width:580px) {
+  .getTouch{
+    width: 45vh;
+  }
+  .res-abt{
+    width: 25%;
+  }
+}
+
+
+
+.text_area{
+  width: 30vh;
+}
+
+/* ............about.................................. */
+
+
+.photo{
+  width:10rem;
+  margin-right: 10rem;
+}
+
+@media screen and (max-width:800px) {
+  
+  .photo{
+    width: 7rem;
+  }
+  .about{
+    width: 38rem;
+    /* background-color: green; */
+
+  }
+  .main-about{
+    margin: 10px;
+    /* width: 100%; */
+    /* background-color: red; */
+
+  }
+ 
+  .about-2ndrow{
+      display: flex;
+      flex-direction: column-reverse;
+      /* justify-content: center; */
+      /* align-items: center; */
+      /* background-color: yellow; */
+  }
+
+
+}
+
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Footer >>>>>>>>>>>>>>>>.. */
+
+.logo{
+  width:12rem ;
+}
+.logo1{
+  width: 5rem;
+  border-radius: 50%;
+}
